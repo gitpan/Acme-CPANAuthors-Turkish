@@ -3,7 +3,7 @@ use strict;
 use vars qw( $VERSION );
 use warnings;
 
-$VERSION = '0.10';
+$VERSION = '0.11';
 
 use Acme::CPANAuthors::Register (
     BURAK => 'Burak Gürsoy',
@@ -15,6 +15,8 @@ use Acme::CPANAuthors::Register (
 __END__
 
 =pod
+
+=encoding utf8
 
 =head1 NAME
 
@@ -37,7 +39,7 @@ Acme::CPANAuthors::Turkish - Türk CPAN Yazarları
 
 =head1 DESCRIPTION
 
-This document describes version C<0.10> of C<Acme::CPANAuthors::Turkish>
+This document describes version C<0.11> of C<Acme::CPANAuthors::Turkish>
 released on C<18 April 2009>.
 
 This class is used to provide a hash of turkish CPAN author's PAUSE id/name
