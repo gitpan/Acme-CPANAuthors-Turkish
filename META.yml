@@ -1,6 +1,6 @@
 ---
 name: Acme-CPANAuthors-Turkish
-version: 0.12
+version: 0.13
 author:
   - 'Burak Gursoy <burak@cpan.org>'
 abstract: Türk CPAN Yazarları
@@ -15,10 +15,11 @@ build_requires:
 provides:
   Acme::CPANAuthors::Turkish:
     file: lib/Acme/CPANAuthors/Turkish.pm
-    version: 0.12
+    version: 0.13
 no_index:
   directory:
-    - tools
+    - monolithic_version
+    - builder
     - t
 generated_by: Module::Build version 0.32
 meta-spec:

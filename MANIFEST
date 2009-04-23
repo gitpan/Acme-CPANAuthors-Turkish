@@ -1,12 +1,15 @@
 Build.PL
 Changes
 lib/Acme/CPANAuthors/Turkish.pm
-Makefile.PL
-MANIFEST			This list of files
-META.yml
+MANIFEST
 README
-t/01-pod.t
-t/02-pod-coverage.t
-t/03-basic.t
-tools/Build.pm
+t/003-basic.t
+SPEC
+builder/Build.pm
+builder/Build/Spec.pm
+t/200-all-modules-have-the-same-version.t
+t/201-pod.t
+t/202-pod-coverage.t
+Makefile.PL	Generated automatically
 LICENSE
+META.yml
