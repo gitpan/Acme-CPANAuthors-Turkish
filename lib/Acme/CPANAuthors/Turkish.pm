@@ -3,11 +3,17 @@ use strict;
 use vars qw( $VERSION );
 use warnings;
 
-$VERSION = '0.13';
+$VERSION = '0.20';
 
 use Acme::CPANAuthors::Register (
-    BURAK => 'Burak Gürsoy',
-    ENGIN => 'Engin Gündüz',
+    AULUSOY => 'Ayhan Ulusoy',
+    BDD     => 'Berk D. Demir',
+    BURAK   => 'Burak Gürsoy',
+    ENGIN   => 'Engin Gündüz',
+    MUTOGUZ => 'Oğuz Mut',
+    NANIS   => 'A. Sinan Ünür',
+    TTAR    => 'Tolga Tarhan',
+    ZIYA    => 'Ziya Süzen',
 );
 
 1;
@@ -34,13 +40,13 @@ Acme::CPANAuthors::Turkish - Türk CPAN Yazarları
    my $number   = $authors->count;
    my @ids      = $authors->id;
    my @distros  = $authors->distributions('BURAK');
-   my $url      = $authors->avatar_url('ENGIN');
+   my $url      = $authors->avatar_url('BURAK');
    my $kwalitee = $authors->kwalitee('BURAK');
 
 =head1 DESCRIPTION
 
-This document describes version C<0.13> of C<Acme::CPANAuthors::Turkish>
-released on C<23 April 2009>.
+This document describes version C<0.20> of C<Acme::CPANAuthors::Turkish>
+released on C<5 November 2010>.
 
 This class is used to provide a hash of turkish CPAN author's PAUSE id/name
 to Acme::CPANAuthors.
@@ -62,16 +68,16 @@ from it.
 
 =head1 AUTHOR
 
-Burak Gürsoy, E<lt>burakE<64>cpan.orgE<gt>
+Burak Gursoy <burak@cpan.org>.
 
 =head1 COPYRIGHT
 
-Copyright 2009 Burak Gürsoy. All rights reserved.
+Copyright 2009 - 2010 Burak Gursoy. All rights reserved.
 
 =head1 LICENSE
 
 This library is free software; you can redistribute it and/or modify 
-it under the same terms as Perl itself, either Perl version 5.10.0 or, 
+it under the same terms as Perl itself, either Perl version 5.12.1 or, 
 at your option, any later version of Perl 5 you may have available.
 
 =cut

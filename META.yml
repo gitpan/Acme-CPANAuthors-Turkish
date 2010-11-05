@@ -1,27 +1,29 @@
 ---
-name: Acme-CPANAuthors-Turkish
-version: 0.13
+abstract: 'Türk CPAN Yazarları'
 author:
   - 'Burak Gursoy <burak@cpan.org>'
-abstract: Türk CPAN Yazarları
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-  repository: http://bitbucket.org/burak/cpan-acme-cpanauthors-turkish/
-requires:
-  Acme::CPANAuthors: 0
 build_requires:
   Test::More: 0.40
-provides:
-  Acme::CPANAuthors::Turkish:
-    file: lib/Acme/CPANAuthors/Turkish.pm
-    version: 0.13
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Acme-CPANAuthors-Turkish
 no_index:
   directory:
     - monolithic_version
     - builder
     - t
-generated_by: Module::Build version 0.32
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+provides:
+  Acme::CPANAuthors::Turkish:
+    file: lib/Acme/CPANAuthors/Turkish.pm
+    version: 0.20
+requires:
+  Acme::CPANAuthors: 0
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: http://bitbucket.org/burak/cpan-acme-cpanauthors-turkish/
+version: 0.20
