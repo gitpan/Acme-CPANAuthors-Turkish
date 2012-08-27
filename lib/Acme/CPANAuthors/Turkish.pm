@@ -1,9 +1,8 @@
 package Acme::CPANAuthors::Turkish;
 use strict;
-use vars qw( $VERSION );
 use warnings;
 
-$VERSION = '0.20';
+our $VERSION = '0.21';
 
 use Acme::CPANAuthors::Register (
     AULUSOY => 'Ayhan Ulusoy',
@@ -45,8 +44,8 @@ Acme::CPANAuthors::Turkish - Türk CPAN Yazarları
 
 =head1 DESCRIPTION
 
-This document describes version C<0.20> of C<Acme::CPANAuthors::Turkish>
-released on C<5 November 2010>.
+This document describes version C<0.21> of C<Acme::CPANAuthors::Turkish>
+released on C<27 August 2012>.
 
 This class is used to provide a hash of turkish CPAN author's PAUSE id/name
 to Acme::CPANAuthors.
@@ -72,12 +71,11 @@ Burak Gursoy <burak@cpan.org>.
 
 =head1 COPYRIGHT
 
-Copyright 2009 - 2010 Burak Gursoy. All rights reserved.
+Copyright 2009 - 2012 Burak Gursoy. All rights reserved.
 
 =head1 LICENSE
 
-This library is free software; you can redistribute it and/or modify 
-it under the same terms as Perl itself, either Perl version 5.12.1 or, 
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.12.3 or,
 at your option, any later version of Perl 5 you may have available.
-
 =cut

@@ -1,12 +1,13 @@
 ---
-abstract: 'Türk CPAN Yazarları'
+abstract: 'We are Turkish CPAN authors'
 author:
   - 'Burak Gursoy <burak@cpan.org>'
 build_requires:
   Test::More: 0.40
 configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3607'
+  Module::Build: 0.40
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,13 +18,14 @@ no_index:
     - monolithic_version
     - builder
     - t
+    - xt
 provides:
   Acme::CPANAuthors::Turkish:
     file: lib/Acme/CPANAuthors/Turkish.pm
-    version: 0.20
+    version: 0.21
 requires:
   Acme::CPANAuthors: 0
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://bitbucket.org/burak/cpan-acme-cpanauthors-turkish/
-version: 0.20
+version: 0.21
